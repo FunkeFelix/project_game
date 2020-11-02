@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    margin-left: 50px;
+}
+html, body {
+    box-sizing: border-box;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.points {
+
+    width: 200px;
+    height: 50px;
+    border: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    
+    
+}
+#timer {
+
+    width: 200px;
+    height: 50px;
+    margin-right: 400px;
+    border: orange;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.gameField {
+    background-image: url("https://images.unsplash.com/photo-1542202229-7d93c33f5d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: auto;
+    cursor: url('../pictures/cursor-crosshair-48.png'), auto;
+    
+    
+}
+
+.boxTop {
+    height: 150px;
+    width: 1000px;
+    display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+    align-content: space-between;
+}
+
+.boxMiddle {
+ height: 150px;
+    width: 1000px;
+    display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+    align-content: space-between;
+    margin-top: 80px;
+}
+
+.boxBottom {
+    height: 150px;
+    width: 1000px;
+    display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+    align-content: space-between;
+    margin-top: 100px;
+} 
+
+.boxRight {
+    display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: flex-end;
+}
+
+.moorhuhn  {
+    height: 150px;
+    width: 100px;
+    background-image: url("../pictures/kisspng-dead-man-s-hand-moorhuhn-the-settlers-7-paths-to-5b27e6e974bf02.6751377515293416734782.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.jägermeister {
+    height: 150px;
+    width: 100px;
+    background-image: url("https://seeklogo.com/images/J/Jagermeister-logo-AD19F1FDBB-seeklogo.com.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.target {
+    
+}
