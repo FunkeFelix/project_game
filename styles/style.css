@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    margin-left: 50px;
 }
 html, body {
     box-sizing: border-box;
@@ -10,6 +9,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-right: 290px;
 
 }
 .points {
@@ -28,26 +28,42 @@ html, body {
 
     width: 200px;
     height: 50px;
-    margin-right: 400px;
     border: orange;
     border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#shots {
+    width: 200px;
+    height: 50px;
     
-    
-
+    border: orange;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gameField {
     background-image: url("https://images.unsplash.com/photo-1542202229-7d93c33f5d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 700px;
+    height: 750px;
     width: auto;
     cursor: url('../pictures/cursor-crosshair-48.png'), auto;
     
     
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: orange;
+    width: 80px;
+
 }
 
 .boxTop {
@@ -59,6 +75,7 @@ html, body {
 	justify-content: space-between;
 	align-items: stretch;
     align-content: space-between;
+    padding-top: 80px;
 }
 
 .boxMiddle {
