@@ -58,8 +58,11 @@ html, body {
 
 .aside{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
 
     background-color: orange;
     width: 80px;
